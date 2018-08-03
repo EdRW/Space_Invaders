@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Command">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AnimationSprite">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="AnimationSprite" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAAQAAAAAAAgAAIAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Sprite\AnimationSprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+      <Field Name="poFirstImage" />
+      <Field Name="pCurrentImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLink">
+    <Position X="10" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAABAAg=</HashCode>
+      <FileName>Manager\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="15" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAJAAEQAoAAQAAAAAEQABAABAAgAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageHolder">
+    <Position X="11" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="13.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAEAAAAAAEAAAAGQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimeEvent" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAQEAgAAAAAAAAAGQAAAAAAAAAAABAA=</HashCode>
+      <FileName>Timer\TimeEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerManager">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJYEAAAAAAAAgAUAQAAABAAACAAIAEAAAABCAAAAgQA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MotionComposite">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="MotionComposite" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="SpaceInvaders.Command" FixedToPoint="true">
+      <Path>
+        <Point X="10.75" Y="5.353" />
+        <Point X="10.75" Y="5.875" />
+        <Point X="7.875" Y="5.875" />
+        <Point X="7.875" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAACAQABAAABAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\MotionComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pComp" />
+      <Field Name="poFirstMotion" />
+      <Field Name="pCurrentMotion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="5" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAYAIAAAAAEAAAEBAAAAAAAQAACAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MotionHolder">
+    <Position X="9" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Composite\MotionHolder.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMotion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Motion" Collapsed="true">
+    <Position X="5.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEhAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Composite\Motion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridMoveDown" Collapsed="true">
+    <Position X="16.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\GridMoveDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridMoveLeft" Collapsed="true">
+    <Position X="4.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\GridMoveLeft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridMoveRight" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\GridMoveRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.PriorityDLinkManager" Collapsed="true">
+    <Position X="4.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAgAgAAAEAAgAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Manager\PriorityDLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.PriorityDLink" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Manager\PriorityDLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFOMoveRight" Collapsed="true">
+    <Position X="2" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\UFOMoveRight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

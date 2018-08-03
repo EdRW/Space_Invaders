@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.SpriteManager" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="1.611" />
+        <Point X="8.229" Y="1.611" />
+        <Point X="8.229" Y="0.375" />
+        <Point X="7.062" Y="0.375" />
+        <Point X="7.062" Y="0.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.838" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteManager">
+    <Position X="1.25" Y="3" Width="1.75" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.ProxySpriteManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="3.861" />
+        <Point X="3.375" Y="3.861" />
+        <Point X="3.375" Y="2.625" />
+        <Point X="2.052" Y="2.625" />
+        <Point X="2.052" Y="3" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.984" Y="0.435" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteManager">
+    <Position X="8.75" Y="0.75" Width="1.75" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.BoxSpriteManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="1.563" />
+        <Point X="10.875" Y="1.563" />
+        <Point X="10.875" Y="0.375" />
+        <Point X="9.625" Y="0.375" />
+        <Point X="9.625" Y="0.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.932" Y="0.404" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AJIAAAAAAAAAAAUAAAEABAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchManager">
+    <Position X="3.75" Y="3" Width="1.75" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Draw" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.SpriteBatchManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="3.861" />
+        <Point X="5.875" Y="3.861" />
+        <Point X="5.875" Y="2.625" />
+        <Point X="4.562" Y="2.625" />
+        <Point X="4.562" Y="3" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.015" Y="0.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAAAAAAgUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.TextureManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.963" Y="0.393" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerManager">
+    <Position X="9" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="DerivedCreatePriorityNode" Hidden="true" />
+      <Method Name="DerivedInitializeNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GetCurrTime" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.TimerManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.5" Y="3.861" />
+        <Point X="10.875" Y="3.861" />
+        <Point X="10.875" Y="2.625" />
+        <Point X="9.75" Y="2.625" />
+        <Point X="9.75" Y="3" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.869" Y="0.414" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AJYEAAAAAAAAgAUAQAAABAAACAAIAEAAAABCAAAAgQA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.ImageManager" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="1.611" />
+        <Point X="5.625" Y="1.611" />
+        <Point X="5.625" Y="0.354" />
+        <Point X="4.438" Y="0.354" />
+        <Point X="4.438" Y="0.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.932" Y="0.383" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectManager">
+    <Position X="6.25" Y="3" Width="1.75" />
+    <Members>
+      <Method Name="Attach" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="PrintReport" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.GameObjectManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="3.861" />
+        <Point X="8.375" Y="3.861" />
+        <Point X="8.375" Y="2.625" />
+        <Point X="7.062" Y="2.625" />
+        <Point X="7.062" Y="3" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.005" Y="0.414" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AJQAAAAAAAAAAAUAAAEABAAAAIAIAEAgAAACAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

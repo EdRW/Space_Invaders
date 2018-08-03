@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Ship">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="Accept" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Ship" Hidden="true" />
+      <Method Name="VisitBomb" Hidden="true" />
+      <Method Name="VisitInvaderCategory" Hidden="true" />
+      <Method Name="VisitInvaderColumn" Hidden="true" />
+      <Method Name="VisitInvaderGrid" Hidden="true" />
+      <Method Name="VisitWallLeft" Hidden="true" />
+      <Method Name="VisitWallRight" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pMotionState" Type="SpaceInvaders.ShipMotionState" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="6.875" />
+        <Point X="7.875" Y="6.875" />
+        <Point X="7.875" Y="8.244" />
+        <Point X="10.75" Y="8.244" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="2.015" Y="0.54" Height="0.182" Width="1.201" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pShootState" Type="SpaceInvaders.ShipShootState" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="6.312" />
+        <Point X="7.875" Y="6.312" />
+        <Point X="7.875" Y="4.648" />
+        <Point X="10.75" Y="4.648" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="2.157" Y="-0.657" Height="0.182" Width="1.023" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIABAAAAQAAAQAAABAAAAAAQAAEAAIAIYCEAAAAQAAA=</HashCode>
+      <FileName>Ship\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pMotionState" />
+      <Field Name="pShootState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ShipMotionState">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipMotionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.FreeMotionState">
+    <Position X="9.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\FreeMotionState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipShootState">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ship\ShipShootState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileLockedState">
+    <Position X="8.75" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\MissileLockedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissleFlyingState">
+    <Position X="10.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\MissleFlyingState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissleReadyState">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\MissleReadyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.LeftMotionOnlyState">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\LeftMotionOnlyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MotionLockedState">
+    <Position X="8" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\MotionLockedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RightMotionOnlyState">
+    <Position X="13.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIQAAAAAAAAAA=</HashCode>
+      <FileName>Ship\States\RightMotionOnlyState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

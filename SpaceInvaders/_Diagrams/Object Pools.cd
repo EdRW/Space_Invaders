@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Manager">
+    <Position X="4.5" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="BaseGetActive" Hidden="true" />
+      <Method Name="BaseSetReserve" Hidden="true" />
+      <Method Name="BaseSpecializedAdd" Hidden="true" />
+      <Method Name="CompareTo" Hidden="true" />
+      <Method Name="CreateNode" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Method Name="RefreshReserve" Hidden="true" />
+      <Method Name="VirtualSpecializedAdd" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pReserve" Type="SpaceInvaders.DLink" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="2.242" />
+        <Point X="7" Y="2.242" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>iACABAAAAAkAAARAAAlAoAAAAAgAAAAgAAAAAAAQAAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pReserve" />
+      <Field Name="pActive" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <Members>
+      <Method Name="DLink" Hidden="true" />
+      <Method Name="GetNext" Hidden="true" />
+      <Method Name="GetPrev" Hidden="true" />
+      <Method Name="PrintList" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pPrev" Type="SpaceInvaders.DLink" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.813" />
+        <Point X="8.75" Y="2.813" />
+        <Point X="8.75" Y="2.438" />
+        <Point X="8.5" Y="2.438" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="pNext" Type="SpaceInvaders.DLink" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.5" Y="2.125" />
+        <Point X="8.75" Y="2.125" />
+        <Point X="8.75" Y="1.75" />
+        <Point X="8.5" Y="1.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAEAAAABAEAAIAAQAIABAAAAAABAEA=</HashCode>
+      <FileName>Manager\DLink.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pPrev" />
+      <Field Name="pNext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.PriorityDLinkManager" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.Manager" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.767" />
+        <Point X="5.25" Y="4.017" />
+        <Point X="10" Y="4.017" />
+        <Point X="10" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAgAgAAAEAAgAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Manager\PriorityDLinkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteManager" Collapsed="true">
+    <Position X="2.5" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteManager" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJIAAAAAAAAAAAUAAAEABAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchManager" Collapsed="true">
+    <Position X="4.5" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAAAAAAgUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager" Collapsed="true">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerManager" Collapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJYEAAAAAAAAgAUAQAAABAAACAAIAEAAAABCAAAAgQA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectManager" Collapsed="true">
+    <Position X="6.5" Y="7.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJQAAAAAAAAAAAUAAAEABAAAAIAIAEAgAAACAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager_Link" Collapsed="true">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager_Link" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager_Link" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteManager_Link" Collapsed="true">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchMan_Link" Collapsed="true">
+    <Position X="4.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectMan_MLink" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.75" />
+    <InheritanceLine Type="SpaceInvaders.Manager" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="3.767" />
+        <Point X="5.25" Y="4.017" />
+        <Point X="7.375" Y="4.017" />
+        <Point X="7.375" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteManager_Link" Collapsed="true">
+    <Position X="2.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

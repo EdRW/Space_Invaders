@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Observer">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\Observer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Subject">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <Members>
+      <Method Name="baseAttach" Hidden="true" />
+      <Method Name="baseDetach" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAQAAgAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\Subject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.InputObserver">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveLeftObserver">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\Observers\MoveLeftObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MoveRightObserver">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\Observers\MoveRightObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShootObserver">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAIAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\Observers\ShootObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InputSubject">
+    <Position X="9.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InputManager">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="InputManager" Hidden="true" />
+      <Method Name="PrivGetInstance" Hidden="true" />
+      <Field Name="privSpaceKeyPrev" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pInstance" Type="SpaceInvaders.InputManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="5.771" />
+        <Point X="7.875" Y="5.771" />
+        <Point X="7.875" Y="5.125" />
+        <Point X="6.75" Y="5.125" />
+        <Point X="6.75" Y="5.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.932" Y="0.289" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAGAAAAAAAAAAABAAASoAAQCAAAAAAA=</HashCode>
+      <FileName>Input\InputManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pInstance" />
+      <Field Name="pSubjectArrowRight" />
+      <Field Name="pSubjectArrowLeft" />
+      <Field Name="pSubjectSpace" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

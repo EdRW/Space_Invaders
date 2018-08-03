@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAABAAAAAAAAAAAAAAQAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite_Link" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSprite_Link" Collapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Sprite" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAJAAEQAgAAAAAAAAEQABAABAAgAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Image">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Image.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAEAAAAAAEAAAAGQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pTexture" />
+      <Field Name="poImageRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Azul.Rect" Collapsed="true">
+    <Position X="2" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.Texture">
+    <Position X="2" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Texture.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Texture\Texture.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAEAAAAAAEAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite_Link" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="ProxySprite" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ProxySprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\ProxySprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAABAAEAAAAAAgAAAAEQAAAABAAQAAABAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteManager_Link" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySpriteManager">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

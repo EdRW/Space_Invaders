@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="7" Y="5.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEIAAAAAEAAAABIAAAAAEAQAAAABqAAAABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ColVisitor">
+    <Position X="7" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIMBAACAAAAAQAAADAAAAIAIBgEAAAAAACEAAAAAAAA=</HashCode>
+      <FileName>Collision\ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectLeaf" Collapsed="true">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAEAAAABAAAAAIAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\GameObjectLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectComposite" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAgAAAAAAAQAAEIAIABAQAAAKAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\GameObjectComposite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InvaderCategory">
+    <Position X="4.25" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="InvaderCategory" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gIEAAAAAAAAAAAAACAAAAIAAAgAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\InvaderCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Bomb">
+    <Position X="2.5" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="Bomb" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gIcAAAAAAAAAAAAAGAAABIAAAgAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Bomb\Bomb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldBrick">
+    <Position X="0.75" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="ShieldBrick" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIABAAAAAAAAAAAADAAAAAAAAAEAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\ShieldBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Missile">
+    <Position X="6" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="Missile" Hidden="true" />
+      <Method Name="SetPos" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIUBAACAAAAAAAAADAAAAIAAAgEAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Ship\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InvaderGrid">
+    <Position X="8" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="InvaderGrid" Hidden="true" />
+      <Method Name="Move" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SetState" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>gIEARAAAAIAAQAABCAAABIAAAgAAAAAGACEAAAAAAAA=</HashCode>
+      <FileName>GameObject\Groupings\InvaderGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Shield">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="Shield" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIQBAAAAAAAAAAAADAAAAAAAAAEAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

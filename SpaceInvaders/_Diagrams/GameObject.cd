@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABoAAAABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pProxySprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ProxySprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\ProxySprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAAABAAEAAAAAAgAAAAEQAAAABBgQAAABAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="12.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAJAAEQAgAAAAAAAAEQABAABAAgAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode_Link" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAEAAAAAAAAAAAAQAAAAAAAAAAABAA=</HashCode>
+      <FileName>GameObject\GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectMan_MLink" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectManager">
+    <Position X="1.75" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJQAAAAAAAAAAAUAAAEABAAAAIAIAEAgAAACAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

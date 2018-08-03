@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Image">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Image.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pTexture" Type="SpaceInvaders.Texture" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="15.5" Y="9.562" />
+        <Point X="15.125" Y="9.562" />
+        <Point X="15.125" Y="9.562" />
+        <Point X="13.5" Y="9.562" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.155" Y="-0.001" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACBQAEAAAAAAEAAAAGQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="18.5" Y="8.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSprite" Collapsed="true">
+    <Position X="18" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgAAABAAESAAAAAAAAAAEQAAAARAIgAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteManager">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AJIAAAAAAAAAAAUAAAEABAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pImage" Type="SpaceInvaders.Image" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="15.5" Y="6.312" />
+        <Point X="15.125" Y="6.312" />
+        <Point X="15.125" Y="9" />
+        <Point X="15.5" Y="9" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAAJAAEQAgAAAAAAAAEQABAABAAgAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="16.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCQAAAAAAAAAAABAAAEAEAAAAAAAAQAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBaseNode_Link" Collapsed="true">
+    <Position X="13" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SBNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBaseNode">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABEAACAAAAAAAAAQEAAAAEAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SBNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SBNodeMan_Link" Collapsed="true">
+    <Position X="10.5" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SBNodeManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBaseNodeManager">
+    <Position X="10.25" Y="2.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAABgQAAAEEBAAAAIAEAAAAAEAABAAAAAQ=</HashCode>
+      <FileName>SpriteBatch\SBNodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch_Link" Collapsed="true">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteBatch.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpriteBatch\SpriteBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEAAAAAAEAAIAEQAAgAAAAQAAABAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSBNodeMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchMan_Link">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatchManager">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIYAAAAAAAAAAgUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Texture" Collapsed="true">
+    <Position X="12" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAEAAAAAAEAAAAEQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager">
+    <Position X="8.25" Y="9.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIIAAAAAAAAAAAUAAAEEBAAAAAAIAEAAAAACAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite_Link" Collapsed="true">
+    <Position X="15.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSprite_Link" Collapsed="true">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image_Link" Collapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager_Link" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Texture_Link" Collapsed="true">
+    <Position X="12" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager_Link" Collapsed="true">
+    <Position X="8.25" Y="8.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager_Link" Collapsed="true">
+    <Position X="12.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.BoxSpriteManager_Link" Collapsed="true">
+    <Position X="20.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\BoxSpriteManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

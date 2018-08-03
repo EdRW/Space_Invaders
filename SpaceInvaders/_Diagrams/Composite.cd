@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Component">
+    <Position X="7" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="GetFirstChild" Hidden="true" />
+      <Method Name="GetLastChild" Hidden="true" />
+      <Method Name="GetNextSibling" Hidden="true" />
+      <Method Name="GetParent" Hidden="true" />
+      <Method Name="GetPrevSibling" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAIAAAAAAAABAAAAAIAQAAIAAAAAEQEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject">
+    <Position X="7" Y="6" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEIAAAAAEAAAABIAAAAAEAQAAAABqAAAABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectLeaf">
+    <Position X="6" Y="8" Width="1.5" />
+    <Members>
+      <Method Name="GameObjectLeaf" Hidden="true" />
+      <Method Name="GetFirstChild" Hidden="true" />
+      <Method Name="GetLastChild" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAgAAAAAAAAAAEAAAABAAAAAIAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\GameObjectLeaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectComposite">
+    <Position X="7.75" Y="8" Width="2" />
+    <Members>
+      <Method Name="BaseUpdateBoundingBox" Hidden="true" />
+      <Method Name="GameObjectComposite" Hidden="true" />
+      <Method Name="GetChild" Hidden="true" />
+      <Method Name="GetFirstChild" Hidden="true" />
+      <Method Name="GetLastChild" Hidden="true" />
+      <Method Name="GetNumChildren" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="poHeadChild" Type="SpaceInvaders.Component" ManuallyRouted="true">
+      <Path>
+        <Point X="9.75" Y="8.688" />
+        <Point X="10.694" Y="8.688" />
+        <Point X="10.694" Y="3.842" />
+        <Point X="8.5" Y="3.842" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.421" Y="-4.919" Height="0.182" Width="1.097" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAYAgAAAAAAAQAAEIAIABAQAAAKAQAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Composite\GameObjectComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHeadChild" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ColVisitor" Collapsed="true">
+    <Position X="7" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIMBAACAAAAAQAAADAAAAIAIBgEAAAAAACEAAAAAAAA=</HashCode>
+      <FileName>Collision\ColVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.LargeInvader" Collapsed="true">
+    <Position X="5.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\LargeInvader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MediumInvader" Collapsed="true">
+    <Position X="6.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\MediumInvader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NullGameObject" Collapsed="true">
+    <Position X="4" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\NullGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SmallInvader" Collapsed="true">
+    <Position X="8.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\SmallInvader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.UFO" Collapsed="true">
+    <Position X="3.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\UFO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InvaderCategory" Collapsed="true">
+    <Position X="6" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIEAAAAAAAAAAAAACAAAAIAAAgAAACAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\InvaderCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InvaderGrid" Collapsed="true">
+    <Position X="8.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIEARAAAAIAAQAABCAAABIAAAgAAAAAGACEAAAAAAAA=</HashCode>
+      <FileName>GameObject\Groupings\InvaderGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Shield" Collapsed="true">
+    <Position X="10.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQBAAAAAAAAAAAADAAAAAAAAAEAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Shield\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
